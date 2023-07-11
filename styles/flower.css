@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap");
+body {
+    font-family: "Poppins", sans-serif;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* bannar section styles */
+
+.bannar {
+    display: flex;
+    background: rgba(229, 84, 115, 0.1);
+    padding: 0px 150px;
+    gap: 50px;
+    margin-bottom: 150px;
+}
+.bannar-title {
+    padding-top: 185px;
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.bannar-description {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.btn-primary {
+    border-radius: 8px;
+    background: #e55473;
+    padding: 20px 40px;
+    border-style: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.asset img {
+    display: block;
+    padding-top: 40px;
+}
+
+/* flower section styles */
+
+.flower-title {
+    text-align: center;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.flower-description {
+    text-align: center;
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.flower-container {
+    display: flex;
+    padding: 0px 40px;
+    gap: 20px;
+    margin-bottom: 160px;
+}
+.flower1 {
+    border-radius: 250px 250px 0px 0px;
+    background: rgba(160, 31, 95, 0.14);
+    padding: 110px 75px 0px 75px;
+}
+.flower1 p {
+    margin-bottom: 30px;
+}
+.flower2 {
+    border-radius: 250px 250px 0px 0px;
+    background: rgba(4, 141, 150, 0.14);
+    padding: 110px 45px 50px 45px;
+}
+.flower3 {
+    border-radius: 250px 250px 0px 0px;
+    background: rgba(61, 115, 14, 0.15);
+    padding: 60px 75px 0px 75px;
+}
+/* support section styles */
+
+.support-container {
+    width: 1200px;
+    height: 200px;
+    padding: 50px 100px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 0 auto;
+    margin-bottom: 125px;
+}
+.Support {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.Support1 {
+    text-align: center;
+}
+.Support2 {
+    text-align: center;
+}
+.Support3 {
+    text-align: center;
+}
+.offer-container {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    height: 600px;
+    margin-bottom: 180px;
+}
+.offer {
+    padding: 230px 50px 250px 400px;
+}
+.orange {
+    color: #e55473;
+}
+.offer-title {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.offer-description {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.flower-red img {
+    padding: 100px 250px 100px 0px;
+}
+.instagram-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 125px;
+}
+.title {
+    text-align: center;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.description {
+    text-align: center;
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400px;
+    margin-bottom: 30px;
+}
+.insta {
+    width: 300px;
+    height: 370px;
+}
+.deal {
+    padding: 120px 260px;
+    height: 350px;
+    background-image: url("../Flower\ Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    width: 1300px;
+    margin: 0 auto;
+}
+.get-deal {
+    text-align: center;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.get-description {
+    color: rgba(39, 39, 39, 0.6);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+form {
+    text-align: center;
+}
+form input[type="email"] {
+    border-radius: 8px;
+    background: #fff;
+    width: 500px;
+    height: 60px;
+    border-style: none;
+    color: rgba(39, 39, 39, 0.6);
+}
+footer {
+    margin-top: 120px;
+    background: #111010;
+    width: 100%;
+    height: 400px;
+    padding-top: 125px;
+}
+.footer-title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #e55473;
+}
+.text-primary {
+    color: white;
+}
+.footer-description {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.footer-sub-title {
+    color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    font-weight: 400;
+}
