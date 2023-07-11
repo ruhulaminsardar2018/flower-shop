@@ -7,6 +7,25 @@ body {
     padding: 0px;
     box-sizing: border-box;
 }
+nav {
+    padding: 40px;
+    background: rgba(229, 84, 115, 0.1);
+}
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;
+    list-style: none;
+    font-size: 30px;
+}
+nav ul > li {
+    margin-right: 20px;
+    color: #e55473;
+}
+nav a {
+    text-decoration: none;
+}
 /* bannar section styles */
 
 .bannar {
@@ -89,7 +108,7 @@ body {
 .support-container {
     width: 1200px;
     height: 200px;
-    padding: 50px 100px;
+    /* padding: 50px 70px; */
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     margin: 0 auto;
